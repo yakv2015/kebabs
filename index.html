@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Шашлыки от Вахтанга!</title>
+
+        <link href="main.css" rel="stylesheet">
+        <!-- <link rel="shortcut icon" href="images/favicon1.png" type="image/png"> -->
+    </head>
+    
+    <body>
+        <header class="header">
+            <span>Самые вкусные шашлыки от Вахтанга!</span>
+            <span>Наши часы работы: от 06-00 и до 23-00!</span>
+            <span>Заказ, доставка самых вкусных и горячих блюд!</span>
+        </header>
+        <section class="main-screen">
+            <div class="left-column">
+                <div class="lines">
+                    <p>Меню</p>
+                    <p>Адрес: г. Москва, Красная Площадь, д.3</p>
+                    <p>Телефон +7 123-456-78-90</p>
+                </div>
+                <div class="cart_img" id="result">
+                    <a class="ass"  href="" >Перейти к заказу</a>
+                </div>
+                <p>Фотогалерея</p>
+            </div>
+
+            <div class="kitchen">
+                <h2>Meat!</h2>
+                <div class="meat">
+                    <div class="item-box">
+                        <img class="item-img" src="images/M1.jpg">
+                        <p class="item-text">Шашлык 1</p>
+                        <p>Цена:<span class="item-price">300</span>$</p>
+                        <button class="add-item" data-id="M1">Добавить в корзину</button>
+                        
+                    </div>
+                    <div class="item-box"> 
+                        <img class="item-img" src="images/M2.jpg">
+                        <p class="item-text">Шашлык 2</p>
+                        <p>Цена:<span class="item-price">200</span>$</p>
+                        <button class="add-item" data-id="M2">Добавить в корзину</button>
+                        
+                    </div>
+                    <div class="item-box">
+                        <img class="item-img" src="images/M3.jpg">
+                        <p class="item-text">Шашлык 3</p>
+                        <p>Цена:<span class="item-price">100</span>$</p>
+                        <button class="add-item" data-id="M3">Добавить в корзину</button>
+                        
+                    </div>
+                </div>
+
+                <h2>Salad!</h2>
+                <div class="salad">
+                    <div class="item-box">
+                        <img class="item-img" src="images/S1.jpg">
+                        <p class="item-text">Салат 1</p>
+                        <p>Цена:<span class="item-price">50</span>$</p>
+                        <button class="add-item" data-id="S1">Добавить в корзину</button>
+                        
+                    </div>
+                    <div class="item-box">
+                        <img class="item-img" src="images/S2.jpg">
+                        <p class="item-text">Салат 2</p>
+                        <p>Цена:<span class="item-price">40</span>$</p>
+                        <button class="add-item" data-id="S2">Добавить в корзину</button>
+                        
+                    </div>
+                    <div class="item-box">
+                        <img class="item-img" src="images/S3.jpg">
+                        <p class="item-text">Салат 3</p>
+                        <p>Цена:<span class="item-price">70</span>$</p>
+                        <button class="add-item" data-id="S3">Добавить в корзину</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <button id="checkout">Оформить заказ</button>
+            <button id="clear_cart">Очистить корзину</button>
+            <div id="cart_content"></div>
+        </section>
+        <footer>
+            <!-- <p>Адрес: г. Москва, Красная Площадь, д.3</p>
+            <p>Телефон +7 123-456-78-90</p> -->
+        </footer>
+
+
+<script type="text/javascript" src="cart.js"></script>
+<script type="text/javascript" src="smthg.js"></script>
+
+    </body>
+</html>

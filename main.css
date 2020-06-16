@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    height: 50px;
+
+}
+
+.item-img {
+    width: 180px;
+    height: 240px;
+    border: 1px solid black;
+    margin: 5px;;
+}
+
+/* .item-img_active {
+    display: block;
+    width: 180px;
+    height: 240px;
+} */
+
+
+/* .item-img:hover {
+    background-color: cornflowerblue;
+} */
+
+.main-screen {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-column {
+    background-color: blueviolet;
+}
+
+.kitchen {
+    display: grid;
+    grid-template-areas:    "item1"
+                            "meat"
+                            "item2"
+                            "salad";
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.meat {
+    grid-area: meat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.salad {
+    grid-area: salad;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item2 {
+    grid-area: item2;
+}
