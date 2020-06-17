@@ -12,7 +12,7 @@ document.addEventListener('click', function(event) {
             
             // imgActive.src = oldSrc;
             imgActive.src =  `images/${oldSrc}.jpg`
-        }, 1000);
+        }, 800);
 
     } else {
         return false;
