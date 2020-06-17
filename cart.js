@@ -53,7 +53,8 @@ for(let i = 0; i < itemBox.length; i++){
 
 // Открываем корзину со списком добавленных товаров
 function openCart(e){
-    var cartData = getCartData(), 
+    var cartData = getCartData(),
+
         totalItems = '';
 
     if(cartData !== null){
@@ -82,6 +83,8 @@ addEvent(document.getElementById('clear_cart'), 'click', function(e){
     localStorage.removeItem('cart');
     cartCont.innerHTML = 'Корзина очишена.';
 });
+
+
 
 /*Очистить корзину при закрытии вкладки*/
 
